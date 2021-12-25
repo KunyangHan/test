@@ -36,6 +36,9 @@ ul,label{
 	margin:0;
 	padding:0;
 }
+#interests {
+	padding-left: 20px;
+}
 body a:hover{
 	text-decoration:none;
 }
@@ -463,6 +466,13 @@ nav.navbar.navbar-default {
 .about,.team-info,.services,.skills{
 	padding:6em 0;
 }
+.subtitle:before {
+    display: none !important;
+}
+h3.title.subtitle {
+    font-size: 2em;
+    margin-top: 0.2em;
+}
 h3.title {
     font-size: 2.4em;
     text-align: center;
@@ -522,9 +532,9 @@ p {
 /*    background: url(../images/slid.jpg)no-repeat center 0px fixed;*/
 /*    background-size: cover;*/
 /*}*/
-.team-info {
+/* .team-info {
     background: rgba(0, 0, 0, 0.54);
-}
+} */
 .team-grids .team-img {
 	overflow: hidden;
 	position: relative;
@@ -1700,8 +1710,15 @@ ul.tl li .timestamp {
     color: rgba(0,0,0, 0.55);
 }
 .background{
-    background: url(../images/BJTU.jpg)no-repeat center 0px fixed;
+    background: url(../images/BJTU_0.jpg)no-repeat center 0px;
+    /* background: url(../images/BJTU_1.jpg)no-repeat center 0px; */
+    /* background: url(../images/BJTU_2.jpg)no-repeat center 0px; */
+    /* background: url(../images/BJTU.jpg)no-repeat center 0px; */
+     /* fixed; */
     background-size: cover;
+}
+.cover{
+    min-height: 850px;
 }
 .header-contents{
     /*background: url(../images/slid.jpg)no-repeat center 0px fixed;*/
