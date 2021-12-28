@@ -1733,3 +1733,10 @@ ul.tl li .timestamp {
 .contents{
     margin-left: 2em;
 }
+
+
+/* new added */
+.center-row {
+    width: 85%;
+    margin: auto;
+}
