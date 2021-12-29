@@ -474,7 +474,7 @@ h3.title.subtitle {
     margin-top: 0.2em;
 }
 h3.title {
-    font-size: 2.4em;
+    font-size: 1.8em;
     text-align: center;
     color: #A9A9A9;
     font-weight: 200;
@@ -483,7 +483,7 @@ h3.title {
     margin-top: 1.2em;
     padding-bottom: 0.3em;
 }
-h3.title:before {
+/* h3.title:before {
     content: '';
     width: 80px;
     height: 5px;
@@ -492,7 +492,7 @@ h3.title:before {
     bottom: 0;
     left: 46%;
     display: block;
-}
+} */
 h4.title {
     font-size: 2em;
     text-align: left;
@@ -543,6 +543,9 @@ p {
 }
 .team-img .student-img{
     width: 70%;
+}
+.team-img .teacher-img{
+    width: 80%;
 }
 .captn h4 {
     color: #fff;

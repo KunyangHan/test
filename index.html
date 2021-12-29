@@ -96,29 +96,40 @@
             <div class="team-row center-row">
                 <div class="col-md-3 team-grids">
                     <div class="team-img">
-                        <img class="student-img" src="images/people/wyc.jpg" alt="">
-                        <!-- <h4>Yunchao Wei</h4>
-                        <p>Professor</p> -->
+                        <img class="teacher-img" src="images/people/wyc.jpg" alt="">
+                        <!-- <h4>Yunchao Wei</h4> -->
+                        <!-- <p>Professor</p> -->
                     </div>
                 </div>
                 <div class="col-md-9">
                     <h3>Yunchao Wei 魏云超</h3>
-                    <p> Professor<br/>
-                    <a href="http://mepro.bjtu.edu.cn/">Center of Digital Media Information Processing</a>
+                    <br>
+                    <p> 
+                        <!-- Professor<br/> -->
+                        Professor, <a href="http://mepro.bjtu.edu.cn/">Center of Digital Media Information Processing</a>
                     <br>
                     Institute of Information Science | Beijing Jiaotong University <br>
 
                     <strong>Office:</strong> 1013-B08, Science & Technology Innovation Mansion of BJTU, Beijing 100044<br/>
                     <strong>Email</strong>: yunchao.wei AT bjtu.edu.cn | wychao1987 AT gmail.com<br/>
-
+                    <strong>Prospective Students</strong> : <a href="opening.html">Content me</a>. <br>
+                    
                     <a href="https://scholar.google.com.sg/citations?user=qL9Csv0AAAAJ&hl=en" target="_blank"><i
-                            class="fa fa-globe"></i> Google Scholar</a> <br>
-                    <strong>Prospective Students</strong> : <a href="opening.html">Content me</a>.
+                        class="fa fa-globe"></i> 
+                        <img src="./images/google_scholar.png" alt="" height="20px">
+                    </a>
+                    <a href="https://github.com/weiyc">
+                        <img src="./images/github.png" alt="" height="20px">
+                    </a>        
+                    <a href="https://www.youtube.com/channel/UCX6tsirfrt2W3vnDbKIy2Zw/videos">
+                        <img src="./images/youtube.png" alt="" height="20px">
+                    </a>
                     </p>
                 </div>
                 <div class="clearfix"></div>
             </div>
         </div>
+        <br>
         <!-- <div class="comments">
             image
             profile
@@ -201,11 +212,85 @@
                 <div class="clearfix"></div>
             </div> -->
         </div>
+
+        <!-- news -->
+        <div class="container">
+            <h3 class="title">News</h3>
+            <div class="history-tl-container">
+                <ul class="tl">
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+
+                        <div class="item-title">[ 19th March 2020 3:00 PM ]</div>
+                        <div class="item-detail">I was awarded as one of the five top early-career researchers in
+                            Engineering and Computer Sciences in Australia by <a
+                                    href="https://specialreports.theaustralian.com.au/1540291/27">The Australian</a>.
+                        </div>
+                    </li>
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+
+                        <div class="item-title">[ 19th March 2020 3:00 PM ]</div>
+                        <div class="item-detail">The slides of <a href="assets/pdf/Wiztalk-魏云超-20200728.pptx">Data-Efficient
+                            Image and Video Segmentation</a> at Tencent Wiztalk is avaliable now!
+                        </div>
+                    </li>
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+
+                        <div class="item-title">[ 19th March 2020 3:00 PM ]</div>
+                        <div class="item-detail">We release <strong>University-1652</strong>, a multi-view multi-source
+                            benchmark for drone-based geo-localization <a
+                                    href="https://github.com/layumi/University1652-Baseline">[link]</a>.
+                        </div>
+                        <div class="item-title2">[ 19th March 2020 3:00 PM ]</div>
+                        <div class="item-detail">We release <strong>University-1652</strong>, a multi-view multi-source
+                            benchmark for drone-based geo-localization <a
+                                    href="https://github.com/layumi/University1652-Baseline">[link]</a>.
+                        </div>
+                    </li>
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+
+                        <div class="item-title">[ 19th March 2020 3:00 PM ]</div>
+                        <div class="item-detail">We release <strong>Agriculture-Vision</strong>, the first large-scale
+                            aerial farmland image dataset for semantic segmentation of agricultural patterns <a
+                                    href="https://www.agriculture-vision.com/dataset">[link]</a>.
+                        </div>
+                    </li>
+
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+
+                        <div class="item-title">[ 19th March 3:00 PM ]</div>
+                        <div class="item-detail">We organized the Real-world Recognition from Low-quality Inputs and 1st
+                            Tiny Object Detection Challenge workshop in ECCV 2020 <a href="https://rlq-tod.github.io/">[link]</a>
+                            <a href="https://www.youtube.com/playlist?list=PLPtQK8rJZ9HzU0ao9-Zdy-vmCc_Rw-9U8">[Youtube]</a>.
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- awards -->
+        
+        <div class="container">
+            <h3 class="title">Selected Honors & Awards</h3>
+
+            <div class="center-row" style="font-size: 16px;">
+
+                <ul id="interests">
+                    <li>
+                        Computer Vision: classification, object detection, segmentation, vision & language, etc.
+                    </li>
+                    <li>
+                        Machine Learning: unsupervised/weakly-supervised/semi-supervised learning, few-shot learning, domain adaptive learning, active learning, etc.
+                    </li>
+                </ul>
+
+            </div>
+        </div>
     </div>
 </div>
 
 <!--news-->
-<div class="news">
+<!-- <div class="news">
     <div class="news-info">
         <div class="container">
             <h3 class="title">News</h3>
@@ -262,20 +347,17 @@
         </div>
 
     </div>
-</div>
+</div> -->
 
 <!--research interests-->
-<div class="team" id="team">
+<!-- <div class="team" id="team">
     <div class="team-info">
         <div class="container">
             <h3 class="title">Selected Honors & Awards</h3>
-            <!-- <p class="text-center" style="color: #fff; margin-bottom: 5px"><strong>Deep learning and its applications in
-                computer vision, including image classification, object detection, semantic segmentation, etc.</strong>
-            </p> -->
 
         </div>
     </div>
-</div>
+</div> -->
 
 <!--//map-->
 <!--footer-->
