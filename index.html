@@ -105,6 +105,18 @@
     </div>
 </div>
 
+<!-- <div class="album-li-pic banner">
+    <img src="./images/BJTU_0.jpg" alt="">
+</div> -->
+
+<script>
+    const cof = 880 / 1792;
+    const width = window.innerWidth;
+    const img = document.getElementById('cover');
+
+    img.style.minHeight = (cof * width).toString() + "px";
+</script>
+
 
 <!--research interests-->
 <div class="team" id="team">
@@ -149,20 +161,8 @@
             </div>
         </div>
         <br>
-        <!-- <div class="comments">
-            image
-            profile
-            research interests
-            news
-
-            TODO: 
-                zilin shiyin yihan, change
-        </div> -->
         <div class="container">
             <h3 class="title">Research Interests</h3>
-            <!-- <p class="text-center" style="color: #fff; margin-bottom: 5px"><strong>Deep learning and its applications in
-                computer vision, including image classification, object detection, semantic segmentation, etc.</strong>
-            </p> -->
 
             <div class="center-row" style="font-size: 16px;">
 
@@ -183,53 +183,6 @@
                 </p>
 
             </div>
-            <!-- <div class="team-row">
-                <div class="col-md-3 team-grids">
-                    <div class="team-img">
-                        <img class="img-responsive" src="images/res1.jpg" alt="">
-                        <div class="captn">
-                            <div class="captn-top">
-                                <h4>Object Detection</h4>
-                                <p>Aenean pulvinar ac enimet posuere tincidunt velit Utin tincidunt</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 team-grids">
-                    <div class="team-img">
-                        <img class="img-responsive" src="images/res1.jpg" alt="">
-                        <div class="captn">
-                            <div class="captn-top">
-                                <h4>Object Detection</h4>
-                                <p>Aenean pulvinar ac enimet posuere tincidunt velit Utin tincidunt</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 team-grids">
-                    <div class="team-img">
-                        <img class="img-responsive" src="images/res1.jpg" alt="">
-                        <div class="captn">
-                            <div class="captn-top">
-                                <h4>Object Detection</h4>
-                                <p>Aenean pulvinar ac enimet posuere tincidunt velit Utin tincidunt</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 team-grids">
-                    <div class="team-img">
-                        <img class="img-responsive" src="images/res1.jpg" alt="">
-                        <div class="captn">
-                            <div class="captn-top">
-                                <h4>Object Detection</h4>
-                                <p>Aenean pulvinar ac enimet posuere tincidunt velit Utin tincidunt</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </div> -->
         </div>
 
         <!-- news -->
@@ -331,76 +284,6 @@
         </div>
     </div>
 </div>
-
-<!--news-->
-<!-- <div class="news">
-    <div class="news-info">
-        <div class="container">
-            <h3 class="title">News</h3>
-            <div class="history-tl-container">
-                <ul class="tl">
-                    <li class="tl-item" ng-repeat="item in retailer_history">
-
-                        <div class="item-title">[ 19th March 2020 3:00 PM ]</div>
-                        <div class="item-detail">I was awarded as one of the five top early-career researchers in
-                            Engineering and Computer Sciences in Australia by <a
-                                    href="https://specialreports.theaustralian.com.au/1540291/27">The Australian</a>.
-                        </div>
-                    </li>
-                    <li class="tl-item" ng-repeat="item in retailer_history">
-
-                        <div class="item-title">[ 19th March 2020 3:00 PM ]</div>
-                        <div class="item-detail">The slides of <a href="assets/pdf/Wiztalk-魏云超-20200728.pptx">Data-Efficient
-                            Image and Video Segmentation</a> at Tencent Wiztalk is avaliable now!
-                        </div>
-                    </li>
-                    <li class="tl-item" ng-repeat="item in retailer_history">
-
-                        <div class="item-title">[ 19th March 2020 3:00 PM ]</div>
-                        <div class="item-detail">We release <strong>University-1652</strong>, a multi-view multi-source
-                            benchmark for drone-based geo-localization <a
-                                    href="https://github.com/layumi/University1652-Baseline">[link]</a>.
-                        </div>
-                        <div class="item-title2">[ 19th March 2020 3:00 PM ]</div>
-                        <div class="item-detail">We release <strong>University-1652</strong>, a multi-view multi-source
-                            benchmark for drone-based geo-localization <a
-                                    href="https://github.com/layumi/University1652-Baseline">[link]</a>.
-                        </div>
-                    </li>
-                    <li class="tl-item" ng-repeat="item in retailer_history">
-
-                        <div class="item-title">[ 19th March 2020 3:00 PM ]</div>
-                        <div class="item-detail">We release <strong>Agriculture-Vision</strong>, the first large-scale
-                            aerial farmland image dataset for semantic segmentation of agricultural patterns <a
-                                    href="https://www.agriculture-vision.com/dataset">[link]</a>.
-                        </div>
-                    </li>
-
-                    <li class="tl-item" ng-repeat="item in retailer_history">
-
-                        <div class="item-title">[ 19th March 3:00 PM ]</div>
-                        <div class="item-detail">We organized the Real-world Recognition from Low-quality Inputs and 1st
-                            Tiny Object Detection Challenge workshop in ECCV 2020 <a href="https://rlq-tod.github.io/">[link]</a>
-                            <a href="https://www.youtube.com/playlist?list=PLPtQK8rJZ9HzU0ao9-Zdy-vmCc_Rw-9U8">[Youtube]</a>.
-                        </div>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-
-    </div>
-</div> -->
-
-<!--research interests-->
-<!-- <div class="team" id="team">
-    <div class="team-info">
-        <div class="container">
-            <h3 class="title">Selected Honors & Awards</h3>
-
-        </div>
-    </div>
-</div> -->
 
 <!--//map-->
 <!--footer-->

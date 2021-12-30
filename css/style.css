@@ -1718,7 +1718,7 @@ ul.tl li .timestamp {
     background-size: cover;
 }
 .cover{
-    min-height: 880px;
+    min-height: 1800px;
 }
 .header-contents{
     /*background: url(../images/slid.jpg)no-repeat center 0px fixed;*/
@@ -1740,3 +1740,30 @@ ul.tl li .timestamp {
     width: 85%;
     margin: auto;
 }
+
+/* 
+.album-li-pic{
+
+    height: 0;
+
+    overflow: hidden;
+
+    margin: 0;
+
+    padding-bottom: 100%;
+
+}
+
+.album-li-pic img{
+
+    display: block;
+    
+    position: absolute;
+    
+    width: 100%;
+    
+    top: 0;
+    
+    bottom: 0;
+    
+} */
