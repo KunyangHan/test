@@ -13,6 +13,25 @@
     function hideURLbar() {
         window.scrollTo(0, 1);
     } </script>
+    <script>
+        const cof = 880 / 1792;
+
+        adaptiveHeight = function() {
+            const width = window.innerWidth;
+            const img = document.getElementById('cover');
+
+            img.style.minHeight = (cof * width).toString() + "px";
+        };
+
+        // adaptiveHeight();
+        // console.log("add resize");
+        window.addEventListener("load", function () {
+            adaptiveHeight();
+        })
+        window.addEventListener("resize", function () {
+            adaptiveHeight();
+        })
+    </script>
     <!-- //Custom Theme files -->
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
@@ -69,7 +88,7 @@
     </nav>
 </div>
 
-<div class="banner background cover">
+<div class="banner background cover" id="cover">
     <div class="container">
           <!-- <div class="banner-text">
                 <div  id="top" class="callbacks_container">
